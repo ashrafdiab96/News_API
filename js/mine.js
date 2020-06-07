@@ -61,8 +61,8 @@ function getNews()
     }
  
     //variable to carry the url of the site which wants to connet
-    //var url = `https://newsapi.org/v2/top-headlines?country=`+country+`&category=`+category+`&apiKey=d0058465af734f3188ea9753ac234bbd`;
-    var url = `https://jsonplaceholder.typicode.com/posts`;
+    var url = `https://newsapi.org/v2/top-headlines?country=`+country+`&category=`+category+`&apiKey=d0058465af734f3188ea9753ac234bbd`;
+
     //open the connection between the two sites
     req.open("GET" , url);
 
