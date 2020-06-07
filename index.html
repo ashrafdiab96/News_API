@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+        <title> News </title>
+        <meta charset="utf-8">
+        <meta name="description" content="this is as a news site that show and update all news of the world moment
+        by moment, موقع اخبارى لعرض الاخبار لحظة بلحظة">
+        <meta name="keywords" content="news, general news, sprots news, political news, business news, 
+        science news, health news, technology news, world, usa, egypt, uk ,germany, canada, emirates, saudia, syria,
+        iraq, swaziland, switzerland, Netherlands, France, Belgium, Mexico, Argentina, Spain, Libya, Sudan, Armenia,
+        Austria, Denmark, اخبار السياسة, اخبار العلوم, اخبار التكنولوجيا, اخبار الرياضة, اخبار الصحة, اخبار
+        البيئة, الاخبار, مصر, السعودية, الامارات, سوريا, العراق, ليبيا, السودان, فلسطين,المانيا,
+        الولايات المتحدة الامريكية, امريكا, كندا, المكسيك, الارجنتين ,تركيا, قطر">
+
+        <!-- Connect bootstrap and css -->
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+
+    <body>
+
+
+        <!-- Navigation bar to choese category news and the country and search news -->
+        <nav class="navbar navbar-expand-sm navbar-light bg-light">
+            <a class="navbar-brand" href="#">News</a>
+            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" 
+            data-target="#collapsibleNavId" aria-controls="collapsibleNavId"aria-expanded="false" 
+            aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">General</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Business</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sports</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Technology</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Health</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Science</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Entertainment</a>
+                    </li>
+                    <li>
+                        
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input id="searchInp" class="form-control mr-sm-2" type="text" placeholder="Search">
+                    <button id="searchBtn" class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+
+        <!-- div to show the countries -->
+        <div class="container py-2">
+            <select class="custom-select" id="selectCountry">
+                <option class="theCountry" value="EG"> Choese Country </option>
+                <option class="theCountry" value="AU">Australia</option>
+                <option class="theCountry" value="CA">Canada</option>
+                <option class="theCountry" value="EG">Egypt</option>
+                <option class="theCountry" value="FR">France</option>
+                <option class="theCountry" value="DE">Germany</option>
+                <option class="theCountry" value="JP">Japan</option>
+                <option class="theCountry" value="MY">Malaysia</option>
+                <option class="theCountry" value="MA">Morocco</option>
+                <option class="theCountry" value="NZ">New Zealand</option>
+                <option class="theCountry" value="RU">Russian Federation</option>
+                <option class="theCountry" value="ZA">South Africa</option>
+                <option class="theCountry" value="SE">Sweden</option>
+                <option class="theCountry" value="CH">Switzerland</option>
+                <option class="theCountry" value="TR">Turkey</option>
+                <option class="theCountry" value="AE">United Arab Emirates</option>
+                <option class="theCountry" value="GB">United Kingdom</option>
+                <option class="theCountry" value="US">United States</option>
+            </select>
+        </div>
+        
+
+        <!-- grid system to show the news -->
+        <div class="container py-3">
+
+            <div class="row" id="rowNews">
+                
+            </div>
+
+        </div>
+
+
+        <!-- Show the news in another window -->
+        <div class="container">
+            <div class="row" id="rowNewsWindow">
+                
+                
+
+            </div>
+        </div>
+
+
+        <!-- Connect jQuery and js -->
+        <script src="js/jquery-3.4.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/mine.js"></script>
+    </body>
+
+
+
+
+
+
+
+</html>
+
+
+
+
+
+
