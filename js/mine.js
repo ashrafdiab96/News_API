@@ -61,7 +61,7 @@ function getNews()
     }
  
     //variable to carry the url of the site which wants to connet
-    var url = `https://newsapi.org/v2/top-headlines?country=`+country+`&category=`+category+`&apiKey=d0058465af734f3188ea9753ac234bbd`;
+    var url = `https://newsapi.org/v2/top-headlines?country=`+country+`&category=`+category+`&apiKey=f2178372e89c41428859f76f9ee93ead`;
 
     //open the connection between the two sites
     req.open("GET" , url);
